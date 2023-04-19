@@ -2,6 +2,24 @@
 
 This is a react native conversion of my [tenzies app](https://github.com/jdegand/tenzies). Used a different implementation of React Confetti and had to replace nanoid with react-native-random-uuid.  This was a quick fix and better packages for random id generation exist.  The React Confetti cannon package can have some performance issues so I limited the confetti to 100 pieces versus the 200 standard.  From the original app, I changed the placement of the won message to above the roll button and changed the styling to prevent the layout shift caused from the win message being conditionally rendered. 
 
+## Screenshots
+
+![](screenshots/react-native-tenzies-1.png)
+
+***
+
+![](screenshots/react-native-tenzies-2.png)
+
+***
+
+![](screenshots/react-native-tenzies-3.png)
+
+***
+
+![](screenshots/react-native-tenzies-4.png)
+
+***
+
 ## Useful Resources
 
 - [Stack Overflow](https://stackoverflow.com/questions/67682503/how-to-generate-unique-id-in-react-native) - generate unique id in react native
